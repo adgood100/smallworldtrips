@@ -1,6 +1,17 @@
 body{
-	/*
-	background-color: blue;
-	color:white;
-	*/
+	
+
+
+	
 }
+
+
+/* positions SWT logo over top banner*/
+#LOGO{
+
+	width:200px;
+	float: left;
+	position: absolute;
+	top:10px;
+}
+
