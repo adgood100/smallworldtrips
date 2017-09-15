@@ -1,14 +1,5 @@
-body{
-	
-
-
-	
-}
-
-
-/* positions SWT logo over top banner*/
 #LOGO{
-
+	
 	width:200px;
 	float: left;
 	position: absolute;
@@ -21,4 +12,24 @@ body{
 	margin-top:80px;
 
 }
+nav {
+	color: white;
+}
+
+
+footer {
+	position: absolute;
+	bottom:0;
+	width:100%;
+}
+
+nav .brand-logo {
+	z-index:5;
+
+}
+
+#center {
+	text-align: center;
+}
+
 
