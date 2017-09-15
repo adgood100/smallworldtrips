@@ -1,0 +1,33 @@
+#LOGO{
+	
+	width:200px;
+	float: left;
+	position: absolute;
+	top:10px;
+}
+
+/*shifts content down to clear logo */
+#tone{
+
+	margin-top:80px;
+
+}
+nav {
+	color: white;
+}
+
+
+footer {
+	position: absolute;
+	bottom:0;
+	width:100%;
+}
+
+nav .brand-logo {
+	z-index:5;
+
+}
+
+#center {
+	text-align: center;
+}
