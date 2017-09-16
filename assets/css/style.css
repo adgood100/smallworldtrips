@@ -16,13 +16,6 @@ nav {
 	color: white;
 }
 
-
-footer {
-	position: absolute;
-	bottom:0;
-	width:100%;
-}
-
 nav .brand-logo {
 	z-index:5;
 
@@ -31,8 +24,36 @@ nav .brand-logo {
 #center {
 	text-align: center;
 }
-<<<<<<< HEAD
-=======
+
+.navbar-fixed {
+	position: absolute;
+	z-index:5;
+}
+
+.nav-switch.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2) !important;
+}
+
+.nav-switch.scrolled a {
+	color: #000 !important;
+}
+
+/* ===== IPAD Portrait ==== */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
 
 
->>>>>>> ee5ac4551347b4421cf98061b9373ec029c58c3d
+}
+
+/* ===== IPAD Pro ==== */
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait)  {
+}
