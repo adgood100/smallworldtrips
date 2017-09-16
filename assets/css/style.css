@@ -20,6 +20,11 @@ nav .brand-logo {
 	z-index:5;
 
 }
+#footerFix {
+	color: black;
+	background-color: #fff;
+	box-shadow: 1px 0px 1px 1px rgba(1,2,1,1);
+}
 
 #center {
 	text-align: center;
