@@ -179,7 +179,7 @@ var map;
 		var query_param = address;
 		
 		// Here we are building the URL we need to query the database
-		var queryURL = "http://api.openweathermap.org/data/2.5/weather?" +
+		var queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
 		  "q=" + query_param + "&units=imperial&appid=" + APIKey;
 
 		  // Here we run our AJAX call to the OpenWeatherMap API
